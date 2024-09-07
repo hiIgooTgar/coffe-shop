@@ -15,4 +15,4 @@ document.addEventListener('click', function (a) {
     }
 });
 
-
+let yearCopyright = document.getElementById("year-copy").innerHTML = new Date().getFullYear()
